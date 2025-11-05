@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Mindfulness_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/Mindfulness_autogen.dir/ParseCache.txt"
+  "Mindfulness_autogen"
+  "CMakeFiles/Mindfulness.dir/Mindfulness_autogen/3YJK5W5UP7/qrc_resources.cpp.obj"
+  "CMakeFiles/Mindfulness.dir/Mindfulness_autogen/3YJK5W5UP7/qrc_resources.cpp.obj.d"
+  "CMakeFiles/Mindfulness.dir/Mindfulness_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/Mindfulness.dir/Mindfulness_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/Mindfulness.dir/src/core/AppController.cpp.obj"
+  "CMakeFiles/Mindfulness.dir/src/core/AppController.cpp.obj.d"
+  "CMakeFiles/Mindfulness.dir/src/core/GameList.cpp.obj"
+  "CMakeFiles/Mindfulness.dir/src/core/GameList.cpp.obj.d"
+  "CMakeFiles/Mindfulness.dir/src/core/GameSession.cpp.obj"
+  "CMakeFiles/Mindfulness.dir/src/core/GameSession.cpp.obj.d"
+  "CMakeFiles/Mindfulness.dir/src/core/GameSessionManager.cpp.obj"
+  "CMakeFiles/Mindfulness.dir/src/core/GameSessionManager.cpp.obj.d"
+  "CMakeFiles/Mindfulness.dir/src/main.cpp.obj"
+  "CMakeFiles/Mindfulness.dir/src/main.cpp.obj.d"
+  "CMakeFiles/Mindfulness.dir/src/monitoring/ProcessMonitor.cpp.obj"
+  "CMakeFiles/Mindfulness.dir/src/monitoring/ProcessMonitor.cpp.obj.d"
+  "CMakeFiles/Mindfulness.dir/src/monitoring/ProcessUtils.cpp.obj"
+  "CMakeFiles/Mindfulness.dir/src/monitoring/ProcessUtils.cpp.obj.d"
+  "CMakeFiles/Mindfulness.dir/src/ui/CategorizeDialog.cpp.obj"
+  "CMakeFiles/Mindfulness.dir/src/ui/CategorizeDialog.cpp.obj.d"
+  "CMakeFiles/Mindfulness.dir/src/ui/ConfigWindow.cpp.obj"
+  "CMakeFiles/Mindfulness.dir/src/ui/ConfigWindow.cpp.obj.d"
+  "CMakeFiles/Mindfulness.dir/src/ui/TimeSetDialog.cpp.obj"
+  "CMakeFiles/Mindfulness.dir/src/ui/TimeSetDialog.cpp.obj.d"
+  "CMakeFiles/Mindfulness.dir/src/ui/WarningDialog.cpp.obj"
+  "CMakeFiles/Mindfulness.dir/src/ui/WarningDialog.cpp.obj.d"
+  "Mindfulness.exe"
+  "Mindfulness.exe.manifest"
+  "Mindfulness.pdb"
+  "Mindfulness_autogen/3YJK5W5UP7/qrc_resources.cpp"
+  "Mindfulness_autogen/mocs_compilation.cpp"
+  "Mindfulness_autogen/timestamp"
+  "libMindfulness.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Mindfulness.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

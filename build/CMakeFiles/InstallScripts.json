@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/damie/Documents/CastroDev/Mindfulness/build/cmake_install.cmake",
+		"C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

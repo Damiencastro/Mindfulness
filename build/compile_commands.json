@@ -1,0 +1,134 @@
+[
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Mindfulness.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Mindfulness.dir\\Mindfulness_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\build\\Mindfulness_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/build/Mindfulness_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Mindfulness.dir/Mindfulness_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Mindfulness.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Mindfulness.dir\\src\\core\\AppController.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\core\\AppController.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/core/AppController.cpp",
+  "output": "CMakeFiles/Mindfulness.dir/src/core/AppController.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Mindfulness.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Mindfulness.dir\\src\\core\\GameList.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\core\\GameList.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/core/GameList.cpp",
+  "output": "CMakeFiles/Mindfulness.dir/src/core/GameList.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Mindfulness.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Mindfulness.dir\\src\\core\\GameSession.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\core\\GameSession.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/core/GameSession.cpp",
+  "output": "CMakeFiles/Mindfulness.dir/src/core/GameSession.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Mindfulness.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Mindfulness.dir\\src\\core\\GameSessionManager.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\core\\GameSessionManager.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/core/GameSessionManager.cpp",
+  "output": "CMakeFiles/Mindfulness.dir/src/core/GameSessionManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Mindfulness.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Mindfulness.dir\\src\\main.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\main.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/main.cpp",
+  "output": "CMakeFiles/Mindfulness.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Mindfulness.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Mindfulness.dir\\src\\monitoring\\ProcessMonitor.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\monitoring\\ProcessMonitor.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/monitoring/ProcessMonitor.cpp",
+  "output": "CMakeFiles/Mindfulness.dir/src/monitoring/ProcessMonitor.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Mindfulness.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Mindfulness.dir\\src\\monitoring\\ProcessUtils.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\monitoring\\ProcessUtils.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/monitoring/ProcessUtils.cpp",
+  "output": "CMakeFiles/Mindfulness.dir/src/monitoring/ProcessUtils.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Mindfulness.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Mindfulness.dir\\src\\ui\\CategorizeDialog.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\ui\\CategorizeDialog.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/ui/CategorizeDialog.cpp",
+  "output": "CMakeFiles/Mindfulness.dir/src/ui/CategorizeDialog.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Mindfulness.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Mindfulness.dir\\src\\ui\\ConfigWindow.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\ui\\ConfigWindow.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/ui/ConfigWindow.cpp",
+  "output": "CMakeFiles/Mindfulness.dir/src/ui/ConfigWindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Mindfulness.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Mindfulness.dir\\src\\ui\\TimeSetDialog.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\ui\\TimeSetDialog.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/ui/TimeSetDialog.cpp",
+  "output": "CMakeFiles/Mindfulness.dir/src/ui/TimeSetDialog.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Mindfulness.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Mindfulness.dir\\src\\ui\\WarningDialog.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\ui\\WarningDialog.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/ui/WarningDialog.cpp",
+  "output": "CMakeFiles/Mindfulness.dir/src/ui/WarningDialog.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Mindfulness.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Mindfulness.dir\\Mindfulness_autogen\\3YJK5W5UP7\\qrc_resources.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\build\\Mindfulness_autogen\\3YJK5W5UP7\\qrc_resources.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/build/Mindfulness_autogen/3YJK5W5UP7/qrc_resources.cpp",
+  "output": "CMakeFiles/Mindfulness.dir/Mindfulness_autogen/3YJK5W5UP7/qrc_resources.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/tests\\\" -DQT_TESTLIB_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_GameList.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test_GameList.dir\\test_GameList_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\build\\tests\\test_GameList_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests/test_GameList_autogen/mocs_compilation.cpp",
+  "output": "tests/CMakeFiles/test_GameList.dir/test_GameList_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/tests\\\" -DQT_TESTLIB_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_GameList.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test_GameList.dir\\unit\\test_GameList.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\tests\\unit\\test_GameList.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/tests/unit/test_GameList.cpp",
+  "output": "tests/CMakeFiles/test_GameList.dir/unit/test_GameList.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/tests\\\" -DQT_TESTLIB_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_GameList.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test_GameList.dir\\__\\src\\core\\GameList.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\core\\GameList.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/core/GameList.cpp",
+  "output": "tests/CMakeFiles/test_GameList.dir/__/src/core/GameList.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_GameSession.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test_GameSession.dir\\test_GameSession_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\build\\tests\\test_GameSession_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests/test_GameSession_autogen/mocs_compilation.cpp",
+  "output": "tests/CMakeFiles/test_GameSession.dir/test_GameSession_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_GameSession.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test_GameSession.dir\\unit\\test_GameSession.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\tests\\unit\\test_GameSession.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/tests/unit/test_GameSession.cpp",
+  "output": "tests/CMakeFiles/test_GameSession.dir/unit/test_GameSession.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_GameSession.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test_GameSession.dir\\__\\src\\core\\GameSession.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\core\\GameSession.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/core/GameSession.cpp",
+  "output": "tests/CMakeFiles/test_GameSession.dir/__/src/core/GameSession.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_GameSession.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test_GameSession.dir\\__\\src\\ui\\TimeSetDialog.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\ui\\TimeSetDialog.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/ui/TimeSetDialog.cpp",
+  "output": "tests/CMakeFiles/test_GameSession.dir/__/src/ui/TimeSetDialog.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_GameSession.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test_GameSession.dir\\__\\src\\ui\\WarningDialog.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\ui\\WarningDialog.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/ui/WarningDialog.cpp",
+  "output": "tests/CMakeFiles/test_GameSession.dir/__/src/ui/WarningDialog.cpp.obj"
+},
+{
+  "directory": "C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests",
+  "command": "c:\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/damie/Documents/CastroDev/Mindfulness/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_GameSession.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test_GameSession.dir\\__\\src\\monitoring\\ProcessUtils.cpp.obj -c C:\\Users\\damie\\Documents\\CastroDev\\Mindfulness\\src\\monitoring\\ProcessUtils.cpp",
+  "file": "C:/Users/damie/Documents/CastroDev/Mindfulness/src/monitoring/ProcessUtils.cpp",
+  "output": "tests/CMakeFiles/test_GameSession.dir/__/src/monitoring/ProcessUtils.cpp.obj"
+}
+]

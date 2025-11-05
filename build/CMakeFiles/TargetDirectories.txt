@@ -1,0 +1,15 @@
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/CMakeFiles/Mindfulness.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/CMakeFiles/test.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/CMakeFiles/edit_cache.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/CMakeFiles/rebuild_cache.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/CMakeFiles/Mindfulness_autogen_timestamp_deps.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/CMakeFiles/Mindfulness_autogen.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests/CMakeFiles/test_GameList.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests/CMakeFiles/test_GameSession.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests/CMakeFiles/test.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests/CMakeFiles/edit_cache.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests/CMakeFiles/rebuild_cache.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests/CMakeFiles/test_GameList_autogen_timestamp_deps.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests/CMakeFiles/test_GameList_autogen.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests/CMakeFiles/test_GameSession_autogen_timestamp_deps.dir
+C:/Users/damie/Documents/CastroDev/Mindfulness/build/tests/CMakeFiles/test_GameSession_autogen.dir
