@@ -1,0 +1,3 @@
+Before continuing implementation, it is necessary to re-architect the components to adhere to a Domain Driven Design. This meshes naturally with the tools
+we are using and the current application flow/structure. Renaming updating the file structure will allow long-term enhancements of statistical tracking and
+a more comprehensive identification of applications. Sessions will track the time spent, updating the Application and saving the Gaming Session to history

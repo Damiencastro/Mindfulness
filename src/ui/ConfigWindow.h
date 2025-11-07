@@ -2,35 +2,54 @@
 #define CONFIGWINDOW_H
 
 #include <QWidget>
+#include <QList>
+#include "Application.h" // Include the new domain entity
 
-// Forward declarations
-class GameList;
+// Forward declarations for UI elements
 class QListWidget;
-class QPushButton;
+class QGroupBox;
 
+/**
+ * @class ConfigWindow
+ * @brief A passive presentation window that displays lists of categorized applications.
+ *
+ * This window is a "dumb" component. It does not fetch, scan, or save
+ * any data. It simply displays the two lists of Application objects
+ * that it is given in its constructor.
+ */
 class ConfigWindow : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit ConfigWindow(GameList* gameList, QWidget *parent = nullptr);
+    /**
+     * @brief Constructs the configuration window.
+     * @param games A list of Applications categorized as "Game" or "Leisure".
+     * @param otherApps A list of all other categorized Applications (Work, Util, etc.).
+     * @param parent The parent widget.
+     */
+    explicit ConfigWindow(
+        QList<Application*>& games, 
+        QList<Application*>& otherApps, 
+        QWidget *parent = nullptr
+    );
+    
     ~ConfigWindow();
 
-    void highlightProcess(const QString& processName);
-
-private slots:
-    void onSave();
-    void onRefresh();
-
 private:
-    void populateList();
+    /**
+     * @brief Private helper to populate a QListWidget with Application data.
+     * @param listWidget The UI widget to fill.
+     * @param applications The list of Application objects to display.
+     */
+    void populateList(QListWidget* listWidget, QList<Application*>& applications);
 
-    GameList* m_gameList; // Pointer, not owned
+    // --- UI Elements ---
+    QListWidget* m_gameListWidget;
+    QListWidget* m_appListWidget;
     
-    // UI Elements
-    QListWidget* m_listWidget;
-    QPushButton* m_saveButton;
-    QPushButton* m_refreshButton;
+    QGroupBox* m_gameBox;
+    QGroupBox* m_appBox;
 };
 
 #endif // CONFIGWINDOW_H

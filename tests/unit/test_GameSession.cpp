@@ -3,7 +3,7 @@
 #include <QSignalSpy>
 
 // Include your actual source file
-#include "../../src/core/GameSession.h"
+#include "../../src/domain/GameSession.h"
 
 class TestGameSession : public QObject {
     Q_OBJECT

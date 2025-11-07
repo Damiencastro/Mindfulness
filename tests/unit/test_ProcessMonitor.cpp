@@ -41,7 +41,7 @@ private slots:
         GameList list;
         ProcessMonitor monitor(&list);
         
-        QSignalSpy uncategorizedSpy(&monitor, &ProcessMonitor::uncategorizedAppFound);
+        QSignalSpy uncategorizedSpy(&monitor, &ProcessMonitor::uncategorizedAppDetected);
         
         // Test logic here
         

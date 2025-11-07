@@ -1,7 +1,7 @@
 #include "GameSession.h"
 #include "TimeSetDialog.h"
 #include "WarningDialog.h"
-#include "ProcessUtils.h"
+#include "services/utils/ProcessUtils.h"
 #include <QTimer>
 
 GameSession::GameSession(DWORD pid, const QString& processName, QObject *parent)

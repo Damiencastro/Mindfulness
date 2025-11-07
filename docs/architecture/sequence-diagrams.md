@@ -103,9 +103,9 @@ sequenceDiagram
         ProcessMonitor->>ProcessMonitor: (Adds "new_app.exe" to flagged set)
     end
     
-    ProcessMonitor-->>MainThread: uncategorizedAppFound("new_app.exe") [Signal]
+    ProcessMonitor-->>MainThread: uncategorizedAppDetected("new_app.exe") [Signal]
     
-    MainThread->>AppController: onUncategorizedAppFound("new_app.exe") [Slot]
+    MainThread->>AppController: onUncategorizedAppDetected("new_app.exe") [Slot]
     AppController->>AppController: onShowConfig()
     
     opt ConfigWindow is null

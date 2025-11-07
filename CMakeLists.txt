@@ -14,8 +14,15 @@ find_package(Qt6 COMPONENTS Core Widgets REQUIRED)
 # Include directories
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/src
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/core
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/monitoring
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/app
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/domain
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/managers
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/repositories
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/repositories/application
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/repositories/infrastucture
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/services/logging
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/repositories/utils
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/services
     ${CMAKE_CURRENT_SOURCE_DIR}/src/ui
 )
 

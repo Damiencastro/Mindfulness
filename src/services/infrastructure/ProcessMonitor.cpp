@@ -1,9 +1,8 @@
 #include "ProcessMonitor.h"
-#include "GameList.h"
-#include "ProcessUtils.h"
+#include "ApplicationRepository.h"
+#include "../utils/ProcessUtils.h"
 
 #include <QTimer>
-#include <QThread> // For moving to thread
 #include <QHash>
 #include <QDebug>
 
@@ -11,9 +10,8 @@
 #include <psapi.h>
 #include <vector>
 
-ProcessMonitor::ProcessMonitor(GameList* gameList, QObject *parent)
+ProcessMonitor::ProcessMonitor(QObject *parent)
     : QObject(parent),
-      m_gameList(gameList),
       m_monitorTimer(nullptr)
 {
     // 1. Create the timer that will drive the monitor loop
@@ -51,7 +49,7 @@ void ProcessMonitor::runMonitorLoop()
     ProcessUtils::updateActiveProcessMap(m_activeProcessMap);
 
     // 2. Check for closed applications.
-    //    This loopo checks our "processed" list (m_knownRunningPIDs)
+    //    This loop checks our "processed" list (m_knownRunningPIDs)
     //    against the "live" list (m_activeProcessMap).
     auto it = m_knownRunningPIDs.begin();
     while (it != m_knownRunningPIDs.end()){
@@ -60,6 +58,7 @@ void ProcessMonitor::runMonitorLoop()
             // This process *was* known, but is now closed.
             // Remove it from teh "known" list so we can detect it again if it relaunches
             it = m_knownRunningPIDs.erase(it);
+            emit processTerminated(knownPID);
         } else{
             ++it;
         }
@@ -89,21 +88,8 @@ void ProcessMonitor::runMonitorLoop()
         // 1. Add it to our "processed" list so we don't spam signals
         m_knownRunningPIDs.insert(pid);
 
-        // 2. Check against the GameList and emit the correct signal
-        if(!m_gameList->isCategorized(appName)){
-            // It's uncategorized. Have we already flagged this *name*?
-            if(!m_flaggedUncategorizedApps.contains(appName)){
-                // Not flagged, flag it now and emit the signal
-                m_flaggedUncategorizedApps.insert(appName);
-                emit uncategorizedAppFound(appName);
-            }
-            // else: We have already flagged this name. Do nothing.
-            // We are watiting for the user to categorize it.
-
-        } else if(m_gameList->isGame(appName)){
-            // It's a known game
-            emit gameDetected(pid, appName);
-        }
+        // 2. Emit processStarted
+        emit processStarted(pid, appName);
         
         ++map_it; // Move to the next item.
     }
